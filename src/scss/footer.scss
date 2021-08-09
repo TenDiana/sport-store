@@ -1,0 +1,58 @@
+.footer{
+  position: relative;
+  &__box{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 461px;
+    height: 271px;
+    background: #C70101;
+    z-index: 2;
+    text-align: center;
+
+  }
+  &__title{
+    font-family: var(--museo500);
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 51px 0 36px;
+  }
+  &__number{
+    font-family: var(--museo500);
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 29px;
+
+
+  }
+  &__link{
+    width: 51px;
+    height: 51px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .leaflet-popup-content-wrapper{
+    max-height: 13px;
+    width: 104px;
+    transform: translate3d(4px, 86px, 0);
+
+  }
+  .leaflet-map-pane .leaflet-popup-tip-container {
+    display: none;
+  }
+  .leaflet-container a.leaflet-popup-close-button {
+    position: absolute;
+    top: 85px;
+    right: -3px;
+  }
+}

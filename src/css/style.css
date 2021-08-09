@@ -1,0 +1,491 @@
+@import "../libs/font/museo/stylesheet.css";
+@import "../libs/jq/owl carousel/owl.carousel.min.css";
+@import "../libs/jq/owl carousel/owl.theme.default.min.css";
+.header {
+  margin-top: 24px;
+  position: absolute;
+  width: 100%;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__sub {
+  font-family: var(--museo700);
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  margin-bottom: 12px;
+}
+.header__title {
+  font-family: var(--museo700);
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.header__number {
+  font-family: var(--museo700);
+  font-size: 18px;
+  text-align: right;
+  color: white;
+  margin-bottom: 7px;
+}
+.header__btn {
+  font-family: var(--museo700), sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 151px;
+  height: 31px;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.first-screen {
+  padding: 165px 0 77px;
+  background: url("../image/first-screen/bg1@1X.png") top/cover no-repeat;
+}
+.first-screen__title {
+  font-family: var(--museo700);
+  font-size: 42px;
+  color: white;
+  margin: 90px 0 17px;
+  text-align: end;
+}
+.first-screen__sub {
+  font-family: var(--museo500);
+  font-size: 24px;
+  color: white;
+  text-align: end;
+}
+.first-screen__icon-group {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  margin-top: 70px;
+}
+.first-screen__icon-group-box {
+  margin-left: 70px;
+}
+.first-screen__icon-text {
+  font-family: var(--museo700);
+  font-size: 14px;
+  color: white;
+}
+.first-screen__end {
+  display: flex;
+  justify-content: flex-end;
+  margin: 66px 0 18px;
+}
+.first-screen__btn {
+  font-family: var(--museo500), sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 50px;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.first-screen__link {
+  text-align: right;
+  color: white;
+  font-family: var(--museo500);
+  font-size: 16px;
+}
+.first-screen__link-go {
+  color: white;
+}
+
+.advantages {
+  padding: 71px 0 78px;
+  background: #F6F6F6;
+}
+.advantages__title {
+  font-family: var(--museo700);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.advantages__row {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__col {
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__sub {
+  font-family: var(--museo700);
+  font-size: 18px;
+  margin: 38px 0 26px;
+}
+.advantages__text {
+  font-family: var(--museo300);
+  font-size: 14px;
+  text-align: center;
+}
+.advantages__link {
+  color: red;
+}
+
+.advice {
+  padding: 100px 0 92px;
+  background: url("../image/advice/bg2@1X.png") top/cover no-repeat;
+}
+.advice__title {
+  font-family: var(--museo700);
+  font-size: 36px;
+  color: white;
+  width: 700px;
+}
+.advice__sub {
+  font-family: var(--museo500);
+  font-size: 20px;
+  color: white;
+  margin: 80px 0 35px;
+}
+.advice__btn {
+  font-family: var(--museo500), sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  width: 301px;
+  height: 56px;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.advice__form-label {
+  display: flex;
+}
+.advice__form-info {
+  width: 301px;
+  height: 51px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  padding: 0 21px;
+}
+.advice__form-info::placeholder {
+  font-family: var(--museo300);
+  color: #4B4B4B;
+  font-size: 14px;
+}
+
+.owl-carousel .owl-item img {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.carousel {
+  padding: 108px 0 108px;
+}
+.carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../image/carousel/chevron-left-solid@1X.png);
+  height: 50px;
+  width: 30px;
+  left: 0;
+}
+.carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../image/carousel/chevron-right-solid@1X.png);
+  height: 50px;
+  width: 30px;
+  right: 0;
+}
+
+.catalog__title {
+  font-family: var(--museo700);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 68px;
+  text-transform: uppercase;
+}
+.catalog__content {
+  display: none;
+}
+.catalog__content_active {
+  display: block;
+}
+.catalog__caption {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.catalog__tab {
+  list-style-type: none;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid #D0D0D0;
+  text-align: center;
+  line-height: 50px;
+  font-family: var(--museo500);
+  font-size: 18px;
+  transform: skew(-24deg);
+  color: #6B6B6B;
+  margin-bottom: 58px;
+}
+.catalog__tab_active {
+  background-color: var(--red);
+  color: white;
+  border: none;
+}
+.catalog .skew__text {
+  transform: skew(24deg);
+}
+.catalog__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+}
+.catalog__col {
+  display: flex;
+  flex-direction: column;
+  width: 301px;
+}
+.catalog__card {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  border: 2px solid #E8E8E8;
+  overflow: hidden;
+}
+.catalog__model {
+  width: calc(50% - 20px);
+  padding: 20px 0 20px 0;
+  transition: 0.3s;
+}
+.catalog__model_active {
+  transform: translateX(-100%);
+  margin: 0 -20px;
+}
+.catalog__model-img-2 {
+  width: 143px;
+  height: 199px;
+  margin-top: 6px;
+}
+.catalog__model-img-3 {
+  width: 170px;
+  height: 200px;
+}
+.catalog__model-title {
+  font-family: var(--museo700);
+  font-size: 16px;
+  margin: 20px 0 16px;
+}
+.catalog__model-sub {
+  font-family: var(--museo300);
+  font-size: 14px;
+  color: #0D0D0D;
+  margin-bottom: 17px;
+}
+.catalog__model-link {
+  font-family: var(--museo500);
+  font-size: 14px;
+  color: var(--red);
+}
+.catalog__buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 15px;
+  border-top: 1px solid #E8E8E8;
+}
+.catalog__price-old {
+  font-family: var(--museo300);
+  font-size: 14px;
+  color: #555555;
+  text-align: start;
+  margin-bottom: 9px;
+}
+.catalog__price-new {
+  font-family: var(--museo700);
+  font-size: 20px;
+}
+.catalog__btn {
+  font-family: var(--museo500), sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  width: 132px;
+  height: 41px;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.catalog__more {
+  display: flex;
+  justify-content: space-between;
+  width: calc(200% + 40px);
+}
+.catalog__info-list {
+  list-style-type: square;
+  color: red;
+  margin-bottom: 15px;
+}
+.catalog__info-list-text {
+  color: #555555;
+}
+.catalog__back-info {
+  width: calc(50% + 40px);
+  max-width: 259px;
+  text-align: start;
+  padding-top: 20px;
+  position: relative;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.catalog__back-info_active {
+  transform: translateX(-100%);
+  margin: 0 40px;
+}
+.catalog__back-info-link {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--museo500);
+  font-size: 14px;
+  color: var(--red);
+}
+
+.review {
+  padding: 103px 0 70px;
+}
+.review__title {
+  font-family: var(--museo700);
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.review__people {
+  display: flex;
+  margin-top: 52px;
+}
+.review__people-img-1 {
+  width: 171px;
+  height: 171px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 61px;
+}
+.review__people {
+  border-bottom: 1px solid #F6F6F6;
+}
+.review__people:last-child {
+  border-bottom: none;
+}
+.review__text-title {
+  font-family: var(--museo700);
+  font-size: 18px;
+  color: #0D0D0D;
+}
+.review__text-status {
+  font-family: var(--museo300);
+  font-size: 14px;
+  color: #646464;
+  margin: 10px 0 15px;
+}
+.review__text-sub {
+  font-family: var(--museo300);
+  font-size: 16px;
+  margin-bottom: 47px;
+}
+.review__text-sub:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  position: relative;
+}
+.footer__box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 461px;
+  height: 271px;
+  background: #C70101;
+  z-index: 2;
+  text-align: center;
+}
+.footer__title {
+  font-family: var(--museo500);
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 51px 0 36px;
+}
+.footer__number {
+  font-family: var(--museo500);
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+.footer__row {
+  display: flex;
+  justify-content: center;
+  column-gap: 29px;
+}
+.footer__link {
+  width: 51px;
+  height: 51px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .leaflet-popup-content-wrapper {
+  max-height: 13px;
+  width: 104px;
+  transform: translate3d(4px, 86px, 0);
+}
+.footer .leaflet-map-pane .leaflet-popup-tip-container {
+  display: none;
+}
+.footer .leaflet-container a.leaflet-popup-close-button {
+  position: absolute;
+  top: 85px;
+  right: -3px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 942px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+:root {
+  --museo700: MuseoSansCyrl-700, sans-serif;
+  --museo500: MuseoSansCyrl-500, sans-serif;
+  --museo300: MuseoSansCyrl-300, sans-serif;
+  --red: #C70101;
+}

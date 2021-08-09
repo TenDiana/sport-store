@@ -1,0 +1,27 @@
+@mixin arrow($bg){
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: $bg;
+  height: 50px;
+  width: 30px;
+}
+
+.owl-carousel .owl-item img{
+  width: 750px;
+  margin: 0 auto;
+}
+.carousel{
+  padding: 108px 0 108px;
+  .owl-nav{
+    .owl-next{
+      @include arrow(url(../image/carousel/chevron-left-solid@1X.png));
+      left: 0;
+    }
+    .owl-prev{
+      @include arrow(url(../image/carousel/chevron-right-solid@1X.png));
+      right: 0;
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+.review{
+  padding: 103px 0 70px;
+  &__title{
+    font-family: var(--museo700);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  &__people{
+    display: flex;
+    margin-top: 52px;
+    &-img-1{
+      width: 171px;
+      height: 171px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 61px;
+    }
+  }
+  &__people{
+    border-bottom: 1px solid #F6F6F6;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+  &__text-title{
+    font-family: var(--museo700);
+    font-size: 18px;
+    color: #0D0D0D;
+  }
+  &__text-status{
+    font-family: var(--museo300);
+    font-size: 14px;
+    color: #646464;
+    margin: 10px 0 15px;
+  }
+  &__text-sub{
+    font-family: var(--museo300);
+    font-size: 16px;
+    margin-bottom: 47px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+
+}

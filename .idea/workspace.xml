@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28d12d05-395c-44c8-b7d6-6bca6488cd50" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nFB0PvsuC9MNogcaoso1bae93Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28d12d05-395c-44c8-b7d6-6bca6488cd50" name="Default Changelist" comment="" />
+      <created>1610975734778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610975734778</updated>
+      <workItem from="1610975736080" duration="181000" />
+      <workItem from="1610975961415" duration="2790000" />
+      <workItem from="1610978812266" duration="1437000" />
+      <workItem from="1610981345805" duration="3329000" />
+      <workItem from="1611049004368" duration="41000" />
+      <workItem from="1611068006872" duration="2533000" />
+      <workItem from="1611152500664" duration="1199000" />
+      <workItem from="1611222305583" duration="3178000" />
+      <workItem from="1611235749278" duration="3592000" />
+      <workItem from="1611255915609" duration="10000" />
+      <workItem from="1611255937013" duration="6061000" />
+      <workItem from="1611306271077" duration="13460000" />
+      <workItem from="1611478735127" duration="10106000" />
+      <workItem from="1611490162434" duration="2056000" />
+      <workItem from="1611494589572" duration="4710000" />
+      <workItem from="1611578187749" duration="4703000" />
+      <workItem from="1611674652994" duration="197000" />
+      <workItem from="1611839993620" duration="15000" />
+      <workItem from="1611848626782" duration="29000" />
+      <workItem from="1611848702941" duration="1224000" />
+      <workItem from="1611853699229" duration="828000" />
+      <workItem from="1611916042529" duration="1419000" />
+      <workItem from="1612023681251" duration="2390000" />
+      <workItem from="1612189911042" duration="1258000" />
+      <workItem from="1612206338291" duration="596000" />
+      <workItem from="1612207984662" duration="71000" />
+      <workItem from="1612249158796" duration="392000" />
+      <workItem from="1612249998368" duration="4363000" />
+      <workItem from="1612510472213" duration="5231000" />
+      <workItem from="1612518178419" duration="802000" />
+      <workItem from="1612730343461" duration="616000" />
+      <workItem from="1612765547094" duration="1219000" />
+      <workItem from="1613569668058" duration="3828000" />
+      <workItem from="1613577350202" duration="595000" />
+      <workItem from="1615649164846" duration="3973000" />
+      <workItem from="1616673300591" duration="1307000" />
+      <workItem from="1616764466179" duration="1208000" />
+      <workItem from="1616954731672" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

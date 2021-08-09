@@ -1,0 +1,48 @@
+.first-screen{
+  padding: 165px 0 77px;
+  background: url("../image/first-screen/bg1@1X.png") top/cover no-repeat;
+  &__title{
+    font-family: var(--museo700);
+    font-size: 42px;
+    color: white;
+    margin: 90px 0 17px;
+    text-align: end;
+  }
+  &__sub{
+    font-family: var(--museo500);
+    font-size: 24px;
+    color: white;
+    text-align: end;
+  }
+  &__icon-group{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 70px;
+    &-box{
+      margin-left: 70px;
+    }
+  }
+  &__icon-text{
+    font-family: var(--museo700);
+    font-size: 14px;
+    color: white;
+  }
+  &__end{
+    display: flex;
+    justify-content: flex-end;
+    margin: 66px 0 18px;
+  }
+  &__btn{
+    @include btn(var(--museo500), 14px, 300px, 50px);
+  }
+  &__link{
+    text-align: right;
+    color: white;
+    font-family: var(--museo500);
+    font-size: 16px;
+    &-go{
+      color: white;
+    }
+  }
+}

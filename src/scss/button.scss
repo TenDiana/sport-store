@@ -1,0 +1,14 @@
+@mixin btn($ff, $fs, $w, $h){
+  font-family: $ff, sans-serif;
+  font-size: $fs;
+  text-align: center;
+  color: white;
+  width: $w;
+  height: $h;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,36 @@
+@import "../libs/font/museo/stylesheet.css";
+@import "../libs/jq/owl carousel/owl.carousel.min.css";
+@import "../libs/jq/owl carousel/owl.theme.default.min.css";
+
+
+
+@import "button";
+@import "header";
+@import "first-screen";
+@import "advantages";
+@import "advice";
+@import "carousel";
+@import "catalog";
+@import "review";
+@import "footer";
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 942px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+:root{
+  --museo700: MuseoSansCyrl-700, sans-serif;
+  --museo500: MuseoSansCyrl-500, sans-serif;
+  --museo300: MuseoSansCyrl-300, sans-serif;
+  --red: #C70101;
+}

@@ -1,0 +1,36 @@
+.advice{
+  padding: 100px 0 92px;
+  background: url("../image/advice/bg2@1X.png") top/cover no-repeat;
+  &__title{
+    font-family: var(--museo700);
+    font-size: 36px;
+    color: white;
+    width: 700px;
+  }
+  &__sub{
+    font-family: var(--museo500);
+    font-size: 20px;
+    color: white;
+    margin: 80px 0 35px;
+  }
+  &__btn{
+    @include btn(var(--museo500), 16px, 301px, 56px);
+  }
+  &__form-label{
+    display: flex;
+  }
+  &__form-info{
+    width: 301px;
+    height: 51px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 0 21px;
+    &::placeholder{
+      font-family: var(--museo300);
+      color: #4B4B4B;
+      font-size: 14px;
+    }
+  }
+}
